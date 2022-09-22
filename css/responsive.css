@@ -1,0 +1,236 @@
+/* Lodiz Architecture HTML Template  */
+
+@media only screen and (max-width: 7000px){
+	.page-wrapper{
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width: 1650px){
+	
+	.fixed-page-title {
+		width:25%;	
+	}
+}
+
+@media only screen and (max-width: 1400px){
+	.main-header .social-links{
+		margin-left:30px;	
+	}
+	
+	.fixed-left-column .title{
+		font-size:80px;	
+	}
+	
+	.small-container{
+		padding:0px 20px;	
+	}
+	.banner-section h1 {
+		letter-spacing: 10px;
+	}
+	.news-block-one .date {
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 1340px){
+	
+}
+
+@media only screen and (max-width: 1200px){
+	.main-header .social-links{
+		display:none;
+	}
+	
+	.banner-section h1 {
+		font-size:60px;	
+	}
+	
+	.left-fixed-text {
+		display: none;
+	}
+
+	.wrapper-box {
+		left: 100px;
+	}
+
+	.banner-section .content-box .inner {
+		padding: 0;
+	}
+
+	.bottom-panel .text-content {
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width: 1200px){
+	.mobile-menu .menu-box {
+		display: none;
+	}
+	.mobile-menu {
+		pointer-events: none;
+	}
+}
+
+@media only screen and (max-width: 1199px){
+	.fixed-page-title,
+	.search-box {
+		display: none;
+	}
+	.content-container {
+		margin-left: 100px;
+	}
+}
+
+@media only screen and (max-width: 1100px){
+	.bottom-panel-three .text-content-three {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.content-container {
+		margin-right: 0px;
+	}
+	.banner-section-two .content-box .inner .text br,
+	.banner-section-three .content-box .inner .text br,
+	.banner-section-four .content-box .inner .text br {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	
+	.main-header .logo img{
+		width:auto;
+		max-width:100%;
+	}
+	
+	.main-header .nav-outer{
+		padding:0px;
+		text-align:right;
+	}
+
+	.bottom-panel .link-btn {
+		display: none;
+	}
+
+	.swiper-counter {
+		display: none;
+	}
+
+	.right-panel {
+		display: none;
+	}
+
+	.bottom-panel-three {
+		right: 0;
+	}
+
+	.wrapper-box {
+		right: 0;
+	}
+
+	.content-container-two {
+		margin-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	
+	.banner-carousel .slide-item.style-two .content-box .inner{
+		margin:0 20px;
+	}
+	.wrapper-box {
+		left: 0;
+		right: 0;
+	}
+	.banner-slider-pagination {
+		display: none;
+	}
+	.banner-slider-control,
+	.bottom-panel {
+		height: 60px;
+		line-height: 60px;
+	}
+	.bottom-panel {
+		left: 0;
+	}
+	.left-panel {
+		display: none;
+	}
+	.bottom-panel-three {
+		left: 0;
+	}
+	.mobile-menu .menu-box {
+		bottom: 60px;
+		padding-left: 0px;
+	}
+	.wrapper-box.style-two {
+		left: 0px;
+	}
+	.bottom-panel-two {
+		left: 0;
+		right: 0;
+	}
+	.content-container {
+		margin-left: 0px;
+	}
+	.banner-section-three .content-box .inner h1 {
+		text-align: center;
+	}
+	.content-container-two {
+		margin-left: 0px;
+	}
+
+	.filters {
+		display: none;
+	}
+
+	.mobile-none {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 599px){
+	.banner-section h1 {
+	    font-size: 40px;
+	    letter-spacing: 5px;
+	    font-weight: 600;
+	    margin-bottom: 20px;
+	}
+	.banner-section .link-box {
+		margin-top: 0px;
+	}
+	.mobile-menu {
+		width: 280px;
+	}
+	.banner-section-two .content-box .inner h1,
+	.banner-section-three .content-box .inner h1,
+	.banner-section-four .content-box .inner h1 {
+		font-size: 50px;
+		line-height: 50px;
+	}
+}
+
+@media only screen and (max-width: 499px) {
+	.main-header .header-upper .logo-box {
+		padding: 18.5px 50px;
+	}
+	.navbar-btn-wrap {
+		padding: 16px 20px;
+	}
+	.mobile-menu .menu-box{
+		top: 70px;
+	}
+}
